@@ -1,6 +1,7 @@
 package app.utils;
 
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.stage.Stage;
 
 public class JavaFXInitializer extends Application {

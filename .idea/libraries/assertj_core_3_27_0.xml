@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="sqlite-jdbc-3.34.0">
+  <library name="assertj-core-3.27.0">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../sqlite-jdbc-3.34.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../assertj-core-3.27.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
