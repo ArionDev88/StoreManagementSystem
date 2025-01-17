@@ -33,5 +33,6 @@ hs_err_pid*
 
 out/
 .idea/*
+.idea/libraries/*
 StoreManagementSystem.iml
 **/.DS_Store

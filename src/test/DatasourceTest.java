@@ -125,10 +125,9 @@ class DatasourceTest {
     @Mock
     private ResultSet resultSet;
 
-    private Datasource datasource;
 
     @BeforeEach
-    void setUp() throws SQLException {
+    void setUp1() throws SQLException {
         MockitoAnnotations.openMocks(this);
 
         datasource = new Datasource(conn);
