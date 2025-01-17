@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
 import static org.mockito.Mockito.*;
 
 //test for handleRegisterButtonAction method
-public class LoginControllerTest {
+public class RegisterControllerTest {
     @Mock
     private TextField fullNameField;
     @Mock
