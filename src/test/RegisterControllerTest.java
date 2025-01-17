@@ -1,5 +1,14 @@
 package test;
 
+
+import static org.mockito.Mockito.*;
+import app.utils.HelperMethods;
+import controller.LoginController;
+import javafx.embed.swing.JFXPanel;
+import javafx.scene.Node;
+import javafx.scene.Scene;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.TimeUnit;
 import app.utils.JavaFXInitializer;
 import controller.RegisterController;
 import javafx.application.Platform;
@@ -13,13 +22,11 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
-import static org.mockito.Mockito.*;
 
 //test for handleRegisterButtonAction method
 public class RegisterControllerTest {
